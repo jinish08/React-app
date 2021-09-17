@@ -1,0 +1,248 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Ubuntu', sans-serif !important;
+  height: 100%;
+}
+.nav_bg {
+  padding: 0 !important;
+}
+.navbar {
+  width: 100% !important;
+  position: fixed !important;
+  padding: 5px 55px !important;
+  background-color: rgb(90, 214, 245) !important;
+  z-index: 1;
+}
+.navbar-brand{
+  display: flex;
+  align-items: center;
+}
+.navbar-brand span {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0 10px;
+}
+.navbar-brand span:hover{
+  color:white;
+}
+.nav-link {
+  font-size: 20px;
+}
+.nav-link:hover {
+  color: rgb(255, 255, 255) !important;
+}
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid rgb(35, 2, 114);
+}
+hr {
+  margin: 0 !important;
+}
+/* banner */
+.banner {
+  margin-top: 95px;
+  background-image: url("./img/background.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 635px !important;
+}
+.banner-content {
+  padding: 80px !important;
+}
+.banner-content h1 {
+  font-size: 65px;
+  padding: 20px;
+}
+.b-c-desc {
+  font-size: 35px;
+}
+.b-c-desc span {
+  font-weight: bold;
+  color: rgb(238, 238, 238);
+}
+.b-c-props {
+  font-size: 25px;
+  padding: 10px;
+}
+.learning-btn {
+  margin-top: 28px;
+  background-color: white !important;
+}
+/* description */
+.profile-pic {
+  display: flex;
+}
+.profile-pic img {
+  border-radius: 5%;
+  width: 230px;
+}
+.desc-content p {
+  font-size: 20px;
+}
+/* Skills */
+.skill {
+  background-color: rgb(250, 176, 17) !important;
+  color: white;
+}
+.skill-h p {
+  font-size: 25px;
+}
+.scard {
+  z-index: 0;
+}
+.scard:hover{
+  transform: scale(1.2);
+}
+.card {
+  color: black;
+  
+}
+/* Contact */
+.f-center{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h1{
+  font-size: 60px;
+}
+.dir-h{
+  text-align: left;
+  margin-left: 50px;
+}
+.pd-h{
+  margin-left: 20px;
+  text-align: left;
+  padding: 5px;
+}
+.pd-c ul{
+  text-align: left;
+  list-style: none;
+  padding:0;
+}
+.pd-c li{
+  font-size: 25px;
+  padding: 20px;
+}
+.icon{
+  padding-right: 18px;
+}
+/* priceCards */
+.plans-div{
+  width: 85%;
+  margin: 30px auto 20px auto;
+}
+.price-card{
+  margin: 25px;
+}
+.price-card .card-body{
+  border: none;
+  background-color:rgb(250, 176, 17) !important;
+  color: #fff;
+}
+.price-card:hover{
+  transform: scale(1.16);
+}
+/* review */
+.review-h{
+  width: 90%;
+  margin: 30px auto 20px auto;
+}
+.note {
+  background: rgba(250, 176, 17, 0.116);
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 60%;
+  min-width: 450px;
+  margin: 30px auto 20px auto;
+  float: center;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+form.create-note {
+  position: relative;
+  min-width: 500px;
+  width: 50%;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+/* footer */
+.footer{
+  padding: 0 auto !important;
+}
+.f-icons li{
+  padding: 0 5px;
+}
+.icon-p a{
+  color: black ;
+  text-decoration: none ;
+}
+.w-icon:hover{
+  color: green;
+}
+.w-icon{
+  color: rgb(7, 211, 7);
+}
+.i-icon{
+  color:rgb(250, 108, 186);
+}
+.i-icon:hover{
+  color: rgb(228, 60, 102);
+}
+.fixed-bottom{
+  background-color: rgb(90, 214, 245);
+}
