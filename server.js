@@ -11,12 +11,10 @@ mongoose.connect(process.env.CONNECT_DB);
 
 app.use("/", require("./routes/notesRoute"));
 
-const PORT = process.env.PORT || 3001;
-
 if (process.env.NODE_ENV == "production") {
   app.use(express.static("my-app/build"));
 }
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || 3001, () => {
   console.log("Server running on port 3001");
 });
